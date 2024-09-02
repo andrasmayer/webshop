@@ -5,16 +5,16 @@ export const navMenu ={
 
     "#login":{},
     "#home":{},
+    "#samplePage":{},
 
    
-   /*
-    adminMenu:{
+   
+    dropdown1:{
         content:[
-            "#supervisor",
-            "#adminEmp",
-            "#createUser",
-            "#hr"
+            "#about",
+            "#home",
+            "#samplePage",
         ]
     },
-*/
+
 }

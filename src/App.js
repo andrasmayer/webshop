@@ -6,6 +6,7 @@ export const App = () =>{
     const authToken = window.localStorage.getItem("authToken") == null ?
         {jwt:null, userName:null}:
         JSON.parse( window.localStorage.getItem("authToken") )
+        
     const langCode = window.localStorage.getItem("Lang") == null ? "hu" : window.localStorage.getItem("Lang")
     const navMenu = new Navbar({target:"#root", langCode:langCode, authToken:authToken});
     const root = document.getElementById("root")

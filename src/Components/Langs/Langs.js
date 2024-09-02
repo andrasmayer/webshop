@@ -1,20 +1,8 @@
 export const Langs = {
     "hu" : {
-
-        dayNames : [
-            "H",
-            "K",
-            "Sze",
-            "Cs",
-            "P",
-            "Szo",
-            "V"
-        ],
-
-
         navBar:{
             navBrand: "Márkajelzés",
-            adminMenu:"Adminisztráció",
+            dropdown1: "Legördülő 1"
         },
 
 
@@ -22,6 +10,9 @@ export const Langs = {
         views:{
             "#home":{
                 title:"Főoldal",
+                sampleMessage:"Ez egy minta üzenet",
+                pushMe:"Nyomj meg",
+                iveBeenPushed:"Megnyomtál",
             },
             "#about":{
                 title:"Rólunk"
@@ -33,30 +24,29 @@ export const Langs = {
                 title:"Bejelentkezés",
                 loginName:"Felhasználónév",
                 passWord:"Jelszó",
-            }  
+            },
+            "#samplePage":{
+                title:"Minta oldal",
+            } 
         }
         
     },
 
     en : {
 
-        dayNames : [
-            "Mon",
-            "Tue",
-            "Wed",
-            "Thu",
-            "Fri",
-            "Sat",
-            "Sun"
-        ],
-
         navBar:{
             navBrand: "navBrand",
+            dropdown1: "Dropdown 1"
+
         },
         title : "English",
         views:{
             "#home":{
                 title:"Home",
+                sampleMessage:"This is a sample message",
+                pushMe:"Push me",
+                iveBeenPushed:"I've been pushed",
+
             },
             "#about":{
                 title:"About"
@@ -68,8 +58,10 @@ export const Langs = {
                 title:"Log In",
                 loginName:"loginName",
                 passWord:"Password",
-            }
-           
+            },
+            "#samplePage":{
+                title:"Sample page",
+            } 
         }
     },
 }

@@ -14,7 +14,6 @@ export class router{
         Object.keys(props.path).forEach(key=>{
             const itm = props.path[key]
             if( 
- 
                 itm.login == null && key != "#login" || 
                 props.authToken.jwt == null && itm.login == null ||
                 props.authToken.jwt != null && itm.login == true  && ( itm.auth.includes( parseInt(user.jobCode) ) || itm.auth == null) || 
